@@ -1,19 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Net;
-using System.Net.WebSockets;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
+﻿using CommonServiceLocator;
+using FluentAssertions;
 using Microsoft.Owin;
 using Microsoft.Owin.Hosting;
-using Microsoft.Practices.ServiceLocation;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Owin.WebSocket;
 using Owin.WebSocket.Extensions;
-using FluentAssertions;
+using System;
+using System.Collections.Generic;
+using System.Net;
+using System.Net.WebSockets;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace UnitTests
 {

@@ -1,9 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using CommonServiceLocator;
+using Microsoft.Owin;
+using System;
+using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using Microsoft.Owin;
-using Microsoft.Practices.ServiceLocation;
-using System;
 
 namespace Owin.WebSocket
 {
